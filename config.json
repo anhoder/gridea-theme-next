@@ -884,6 +884,10 @@
         {
           "label": "小白",
           "value": "tororo"
+        },
+        {
+          "label": "血小板",
+          "value": "plt"
         }
       ]
     },

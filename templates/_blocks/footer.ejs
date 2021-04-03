@@ -206,6 +206,10 @@
   let images = document.querySelectorAll('.section img');
   console.log(images);
   images.forEach(image => {
+    if (image.classList.contains('no-fancybox')) {
+      return;
+    }
+
     var parent = image.parentElement;
     var next = image.nextElementSibling;
     parent.removeChild(image);

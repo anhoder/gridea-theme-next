@@ -451,6 +451,8 @@
 				AIimgSrc.push(message_Path + "model/hijiki/moc/hijiki.2048/texture_00.png");
 			} else if (chooseLive2d === 'tororo') {
 				AIimgSrc.push(message_Path + "model/tororo/moc/tororo.2048/texture_00.png");
+			} else if (chooseLive2d === 'plt') {
+				AIimgSrc.push(message_Path + "model/plt/moc/plt.2048/texture_00.png");
 			}
 			var images = [];
 			var imgLength = AIimgSrc.length;
@@ -482,6 +484,8 @@
 							model = message_Path + "model/hijiki/hijiki.model.json";
 						} else if (chooseLive2d === 'tororo') {
 							model = message_Path + "model/tororo/tororo.model.json";
+						} else if (chooseLive2d === 'plt') {
+							model = message_Path + "model/plt/model.json?v=1617466520";
 						}
 						setTimeout(function () {
 							loadlive2d("live2d", model);
